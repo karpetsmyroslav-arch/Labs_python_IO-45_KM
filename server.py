@@ -19,12 +19,12 @@ def detector_server():
     fear = response['fear']
     joy = response["joy"]
     sadness = response["sadness"]
-    dominaint_emotion = response['dominant_emotion']    
+    dominant_emotion = response['dominant_emotion']    
     return (
         f"System response for this statement: "
         f"'anger': {anger}, 'disgust': {disgust}, 'fear': {fear}, "
         f"'joy': {joy} та 'sadness': {sadness}. "
-        f"Dominant emotion - {dominant_emotion}."
+        f"dominant_emotion - {dominant_emotion}."
     )
 
 
